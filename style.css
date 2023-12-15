@@ -1,0 +1,50 @@
+* {
+    font-family: 'League Spartan', sans-serif;
+}
+.odp {
+    transition: opacity 0.5s ease-out, max-height 1s ease-out;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+  }
+.odp.widoczny {
+    opacity: 1;
+    max-height: 200px;
+}
+.minusik{
+    display: none;
+}
+.tlo {
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(275, 100%, 97%);
+}
+.container {
+    position: absolute;
+    background-color: white;
+    left: 30%;
+    width: 40%;
+    top: 15%;
+    padding: 2%;
+    border-radius: 10px;
+}
+.div-na-h1 {
+    display: flex;
+}
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+h3 {
+    font-weight: 600;
+}
+.obraz-gwiazdka {
+    margin-right: 10px;
+}
+.pytanie { 
+    display: flex;
+    justify-content: space-between;
+}
